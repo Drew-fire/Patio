@@ -169,3 +169,71 @@ h1:before {
 	padding-top: 95px;
 	padding-bottom: 218px;
 }
+
+.projects {
+	text-align: center;
+	background: linear-gradient(to right, black 0% 31%, white 31% 100%);
+}
+
+.project_title {
+	margin: 0;
+	color: #000000;
+	font-family: "Questa Grande";
+	font-size: 55px;
+	font-weight: 500;
+	letter-spacing: -1.1px;
+}
+
+.project_title:before {
+	margin: 0 auto 20px;
+	content: '';
+	width: 60px;
+	height: 2px;
+	background: lightgrey;
+	display: block;
+}
+
+.projects_content {
+	margin-top: 68px;
+}
+
+.project_item {
+	position: relative;
+	display: inline-block;
+	width: calc((100% - 60px) / 2);
+	padding-top: 32.3%;
+}
+
+.project_item:nth-child(2n) {
+	margin-left: 55px;
+}
+
+.img_bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.project_type {
+	color: #000;
+	background: white;
+	text-decoration: none;
+	display: block;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1.8px; 
+	padding: 22px 42px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.project_type:hover {
+	opacity: 0.85;
+	transition: opacity 0.3s;
+}
